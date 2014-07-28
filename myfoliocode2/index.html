@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css">
+      <link rel="stylesheet" type="text/css" href="css/folio.css">
+    <title>Portfolio</title>
+  </head>
+
+  <body class="wrap">
+    <nav>
+      <ul class='left'>
+        <a href='#' class='logo'><span class='white'>My</span><span class='yellow'>folio</span></a>
+      </ul>
+
+      <ul class='right'>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT ME</a>
+        <a href="#">SERVICES</a>
+        <a href="#">MY WORK</a>
+        <a href="#">CONTACT ME</a>
+      </ul>
+    </nav>
+
+    <main>
+
+      <div id="mainheader">
+        <div id="content">
+            <h2>Lorem ipsum dolor sit iusmod tempor</h2>
+            <div id="maintext"<h1>INCIDIDUNT BORE</h1></div>
+            <div>Orem ipsum dolor sit amet, consectetur</div>
+              <div id="know"><button class="btn">KNOW MORE</button></div>
+            </div>
+          </div>
+
+      <!-- semantically you probably want to make all of these section tags as opposed to divs -->
+      <div id="aboutme">
+        <h1>ABOUT ME</h1>
+        <!-- hr  see further down-->
+          <div id="design"><img src="images/curlydivide.jpg"></div>
+          <!-- you don't need a div for just a p tag -->
+            <div class="paragraph">
+            <!-- this shouldn't be an id -->
+               <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.</p>
+             </div>
+              <div class='blocks'>
+                <div>
+                <!-- these images should be svg's ideally -->
+                   <img src="images/lightbulb.jpg"/>
+                      <h4>Title goes here</h4>
+                        <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
+                        et dolorerserss eerhfre mag.</p>
+                </div>
+
+                <div>
+                  <img src="images/pencil.jpg"/>
+                    <h4>Title goes here</h4>
+                      <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
+                       et dolorerserss eerhfre mag.</p>
+                </div>
+
+                <div>
+                  <img src="images/wheel.jpg"/>
+                    <h4>Title goes here</h4>
+                      <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
+                      et dolorerserss eerhfre mag.</p>
+                </div>
+
+                <div>
+                    <img src="images/computer.jpg"/>
+                      <h4>Title goes here</h4>
+                        <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
+                        et dolorerserss eerhfre mag.</p>
+                </div>
+              </div>
+            </div>
+
+      <div id="services">
+      <!-- I know I named these because I was short of ideas for them but name them better -->
+        <div id="one">
+          <h1>SERVICES</h1>
+          <!-- hr!! -->
+            <div id="design2"><img src="images/curly2.jpg"/></div>
+            <!-- this doesn't need to be in a div -->
+              <div class="paragraph">
+                <p id="para2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                  <div class='blocks-50'>
+                    <div>
+                    <!-- make these svg's -->
+                       <img src="images/globe.jpg"/>
+                          <h4>Title goes here</h4>
+                            <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
+                            et dolorerserss eerhfre mag.</p>
+                    </div>
+
+                   <div>
+                      <img src="images/magnify.jpg"/>
+                         <h4>Title goes here</h4>
+                            <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
+                             et dolorerserss eerhfre mag.</p>
+                   </div>
+
+                    <div>
+                      <img src="images/clock.jpg"/>
+                        <h4>Title goes here</h4>
+                          <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
+                          et dolorerserss eerhfre mag.</p>
+                    </div>
+
+                    <div>
+                      <img src="images/city.jpg"/>
+                        <h4>Title goes here</h4>
+                         <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi
+                         et dolorerserss eerhfre mag.</p>
+                      </div>
+                    </div>
+                  </div>
+                <div id="two"></div>
+              </div>
+
+         <div id="mywork">
+            <h1>MY WORK</h1>
+            <!-- make hr -->
+              <div class="design"><img src="images/curlydivide.jpg"></div>
+              <!-- no div here -->
+                <div class="paragraph">
+                  <p class="parasame">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+               </div>
+        </div>
+
+
+        <div id="photos">
+        <!-- this should probably be an unordered list as opposed to divs -->
+        <!-- you also want to work on making the text description appear when you hover over it as it is in the psd -->
+        <!-- also they don't need the class left on each individual element. you want to handle that on the parent element -->
+           <div class="left"><img src="images/image1.jpg"/></div>
+           <div class="left"><img src="images/image2.jpg"/></div>
+           <div class="left"><img src="images/image3.jpg"/></div>
+           <div class="left"><img src="images/image4.jpg"/></div>
+           <div class="left"><img src="images/image5.jpg"/></div>
+           <div class="left"><img src="images/image6.jpg"/></div>
+           <div class="left"><img src="images/image7.jpg"/></div>
+           <div class="left"><img src="images/image8.jpg"/></div>
+        </div>
+
+
+        <div id="contact">
+          <h1>CONTACT ME</h1>
+          <!-- semantically this should be an hr with a background image -->
+            <div class="design"><img src="images/curlydivide.jpg"></div>
+            <!-- there doesnt need to be a div here -->
+              <div class="paragraph">
+              <!-- try to make the class name more descriptive. I don't know what parasame means -->
+                <p class="parasame">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+           </div>
+        </div>
+
+      <!-- this should be a working form using inputs and having the text appear as a placeholder -->
+      <!-- this is hard btw -->
+      <div id="form">
+        <p id="name">NAME</p>
+        <p id="address">EMAIL ADDRESS</p>
+        <p id="message">MESSAGE</p>
+        <div id="submit"><button class="btn" type="submit">SUBMIT</button></div>
+        <p id="copyright">&copy;MYFOLIO</p>
+      </div>
+
+    </main>
+    <script>
+      // var mainheader = document.getElementById('mainheader');
+      // mainheader.height = document.documentElement.clientHeight;
+    </script>
+  </body>
+</html>
+
+

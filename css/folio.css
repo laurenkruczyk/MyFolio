@@ -1,0 +1,325 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-family:Arial Black;
+  font-weight:bolder;
+  font-size:2.5em;
+  color:#02918c;
+}
+
+.mobile {
+  display: none;
+}
+
+.white {
+  color: white;
+  font-size:18px;
+}
+
+.yellow {
+  color: #cfc91d;
+  font-size:18px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.design {
+  margin-top:-5%;
+}
+
+.paragraph {
+  color:grey;
+  line-height:2.5em;
+}
+
+.parasame {
+  margin-left:15%;
+  margin-right:15%;
+  margin-bottom:6%;
+  font-weight:lighter;
+  font-size:18px;
+}
+
+#curly {
+  transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  padding-bottom:.25em;
+  font-family: Baskerville;
+  font-size:6em;
+  color:white;
+}
+
+.btn  {
+  width: 150px;
+  height: 40px;
+  background-color: #cfc91d;
+  color:black;
+  font-size:12px;
+  font-family:Arial Black;
+  letter-spacing: .1em;
+  box-shadow: blur;
+  border:black;
+  }
+
+.logo {
+  float: left;
+  text-transform: uppercase;
+  font-family: Myriad Pro;
+  font-weight:bold;
+}
+
+.logo .white, .logo .yellow {
+  font-size:2.2em;
+  line-height:1em;
+}
+
+nav {
+  margin:0;
+  width: 100%;
+  height: 3em;
+  overflow: auto;
+  background-color: #02918c;
+}
+
+nav a {
+  text-decoration:none;
+  padding-right: 4em;
+  font-family: Myriad Pro;
+  font-weight: bold;
+  font-size: .75em;
+  line-height:1em;
+  color: white;
+}
+
+#mainheader {
+  background: url('../images/mainheader.jpg');
+  background-position:center;
+  height: 712px;
+}
+
+#mainheader #maintext {
+  font-family: Franklin Gothic Medium;
+  letter-spacing: .5em;
+  font-weight:bold;
+  font-size:40px;
+  padding-bottom:.25em;
+  margin-top:-.25em;
+}
+
+#mainheader #content {
+  padding: 11em 0;
+  color: white;
+}
+
+#know .btn {
+  margin-top:2em;
+}
+
+#aboutme {
+  overflow: auto;
+}
+
+#aboutme h1 {
+  margin-top:6%;
+}
+
+#aboutme #para {
+  margin-left:10%;
+  margin-right:10%;
+}
+
+.blocks div {
+  float: left;
+  margin-top:4%;
+  margin-bottom:10%;
+  padding:1em;
+  width: 25%;
+  height:250px;
+  font-size:14px;
+  line-height: 2em;
+  color:grey;
+  border-right: 1px lightgrey solid;
+}
+
+.blocks div:last-child {
+  border-right: none;
+}
+
+#services > div {
+  width: 50%;
+  color:grey;
+  /*display: inline-block;*/
+  float: left;
+  height: 750px;
+}
+
+#one h1 {
+  margin-top:6%;
+  margin-right:48%;
+}
+
+#design2 {
+  margin-right:62%;
+}
+
+#services #para2 {
+  text-align:left;
+  margin-left:8%;
+  margin-right:8%;
+  font-size:14px;
+}
+
+#one {
+  background: #f0f0e8;
+  margin-bottom:6%;
+  overflow:auto;
+}
+
+.blocks-50 div {
+  float: left;
+  margin-top: 0;
+  margin-left:6%;
+  margin right:6%;
+  padding:1.5em;
+  width: 40%;
+  text-align:left;
+  font-size:12px;
+  line-height:2em;
+}
+
+#two {
+  background: url('../images/service2.jpg');
+  margin-bottom:6%;
+}
+
+
+#mywork .design {
+  margin-top:-.75em;
+}
+
+#mywork .parasame {
+  margin-left:15%;
+  margin-right:15%;
+  margin-bottom:6%;
+  font-size:18px;
+}
+
+#photos > div {
+  float: left;
+  width: 25%;
+  line-height: 0;
+}
+
+#photos img {
+  width:100%;
+}
+
+#contact h1 {
+  line-height:4em;
+}
+
+#contact .parasame {
+  margin-left:15%;
+  margin-right:15%;
+  margin-bottom:6%;
+  font-size:18px;
+}
+
+#form {
+  background: url('../images/blackimage.jpg');
+  background-position:center;
+  width:100%;
+  height:650px;
+  font-family:Myriad Pro;
+  font-size:18px;
+  color:grey;
+}
+
+#submit .btn {
+  margin-top:13.2em;
+  margin-bottom:8.6em;
+}
+
+#name {
+  padding-top:4em;
+}
+
+#address, #message {
+  padding-top:3em;
+}
+
+
+#copyright {
+  font-size:12px;
+}
+
+
+@media (max-width: 720px) {
+  #photos > div {
+    width: 50%;
+  }
+
+  #photos img {
+    width: 100%;
+  }
+
+  #services > div {
+    width: 100%;
+    height: 100%;
+  }
+
+  #two {
+    display: none;
+  }
+
+  .blocks div{
+    width: 50%;
+  }
+
+  nav .right a {
+    margin-top: -200px;
+    display: block;
+    transition: 0.3s;
+  }
+
+  nav {
+    height: 100%;
+    text-align: right;
+  }
+
+
+  .mobile {
+    margin-top: 0 !important;
+    font-size: 1.5em;
+    margin-right:-50% !important;
+  }
+
+  .mobile-show a{
+    margin-top: 0 !important;
+    margin-right: -20%;
+  }
+}
+
+
+
+
+
+
+
